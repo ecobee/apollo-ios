@@ -16,8 +16,6 @@
 		9F27D4641D40379500715680 /* JSONStandardTypeConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F27D4631D40379500715680 /* JSONStandardTypeConversions.swift */; };
 		9F295E311E27534800A24949 /* NormalizeQueryResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F295E301E27534800A24949 /* NormalizeQueryResults.swift */; };
 		9F295E381E277B2A00A24949 /* GraphQLResultNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F295E371E277B2A00A24949 /* GraphQLResultNormalizer.swift */; };
-		9F438D071E6C2FD9007BDC1A /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC750441D2A532C00458D91 /* Apollo.framework */; };
-		9F438D081E6C30B1007BDC1A /* StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCE2CFA1E6C213D00E34457 /* StarWarsAPI.framework */; };
 		9F533AB31E6C4A4200CBE097 /* BatchedLoadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F438D0B1E6C494C007BDC1A /* BatchedLoadTests.swift */; };
 		9F55347B1DE1DB2100E54264 /* ApolloStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55347A1DE1DB2100E54264 /* ApolloStore.swift */; };
 		9F578D901D8D2CB300C0EA36 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F578D8F1D8D2CB300C0EA36 /* Utilities.swift */; };
@@ -40,7 +38,6 @@
 		9FA6ABCF1EC0A9F7000017BE /* StarWarsServerCachingRoundtripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6ABC81EC0A9F7000017BE /* StarWarsServerCachingRoundtripTests.swift */; };
 		9FA6ABD01EC0A9F7000017BE /* StarWarsServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6ABC91EC0A9F7000017BE /* StarWarsServerTests.swift */; };
 		9FA6ABD21EC0A9F7000017BE /* WatchQueryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6ABCB1EC0A9F7000017BE /* WatchQueryTests.swift */; };
-		9FA6ABD51EC0AA49000017BE /* StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCE2CFA1E6C213D00E34457 /* StarWarsAPI.framework */; };
 		9FA6ABD61EC0AA4D000017BE /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC750441D2A532C00458D91 /* Apollo.framework */; };
 		9FA6F3681E65DF4700BF8D73 /* GraphQLResultAccumulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6F3671E65DF4700BF8D73 /* GraphQLResultAccumulator.swift */; };
 		9FACA9BE1F42E67200AE2DBD /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC750441D2A532C00458D91 /* Apollo.framework */; };
@@ -69,11 +66,6 @@
 		9FCDFD291E33D0CE007519DC /* GraphQLQueryWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCDFD281E33D0CE007519DC /* GraphQLQueryWatcher.swift */; };
 		9FCE2CEC1E6BDAD100E34457 /* NormalizedCachingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE2CEB1E6BDAD100E34457 /* NormalizedCachingTests.swift */; };
 		9FCE2CEE1E6BE2D900E34457 /* NormalizedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE2CED1E6BE2D800E34457 /* NormalizedCache.swift */; };
-		9FCE2CFE1E6C213D00E34457 /* StarWarsAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCE2CFC1E6C213D00E34457 /* StarWarsAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FCE2D011E6C213D00E34457 /* StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCE2CFA1E6C213D00E34457 /* StarWarsAPI.framework */; };
-		9FCE2D021E6C213D00E34457 /* StarWarsAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCE2CFA1E6C213D00E34457 /* StarWarsAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9FCE2D091E6C254700E34457 /* StarWarsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCE2CFA1E6C213D00E34457 /* StarWarsAPI.framework */; };
-		9FCE2D0B1E6C258A00E34457 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE2D0A1E6C258A00E34457 /* API.swift */; };
 		9FD637E41E6ACF88001EDBC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD637E31E6ACF88001EDBC8 /* AppDelegate.swift */; };
 		9FD637E61E6ACF88001EDBC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD637E51E6ACF88001EDBC8 /* ViewController.swift */; };
 		9FD637E91E6ACF88001EDBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD637E71E6ACF88001EDBC8 /* Main.storyboard */; };
@@ -103,13 +95,6 @@
 			remoteGlobalIDString = 9F8A95771EC0FC1200304A2D;
 			remoteInfo = ApolloTestSupport;
 		};
-		9F438D091E6C30C3007BDC1A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FC7503B1D2A532C00458D91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FCE2CF91E6C213D00E34457;
-			remoteInfo = StarWarsAPI;
-		};
 		9F65B11F1EC106E80090B25F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9FC7503B1D2A532C00458D91 /* Project object */;
@@ -137,20 +122,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9F8A95771EC0FC1200304A2D;
 			remoteInfo = ApolloTestSupport;
-		};
-		9FA5FBB51EC05CE900304A9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FC7503B1D2A532C00458D91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FC750431D2A532C00458D91;
-			remoteInfo = Apollo;
-		};
-		9FA6ABD31EC0AA42000017BE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FC7503B1D2A532C00458D91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FCE2CF91E6C213D00E34457;
-			remoteInfo = StarWarsAPI;
 		};
 		9FA6ABD71EC0AA55000017BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -187,20 +158,6 @@
 			remoteGlobalIDString = 9FC750431D2A532C00458D91;
 			remoteInfo = Apollo;
 		};
-		9FCE2CFF1E6C213D00E34457 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FC7503B1D2A532C00458D91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FCE2CF91E6C213D00E34457;
-			remoteInfo = StarWarsAPI;
-		};
-		9FCE2D071E6C254000E34457 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FC7503B1D2A532C00458D91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FCE2CF91E6C213D00E34457;
-			remoteInfo = StarWarsAPI;
-		};
 		9FD637F71E6AD43F001EDBC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9FC7503B1D2A532C00458D91 /* Project object */;
@@ -217,7 +174,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9FCE2D021E6C213D00E34457 /* StarWarsAPI.framework in Embed Frameworks */,
 				9F0CA4461EE7F9E90032DD39 /* ApolloTestSupport.framework in Embed Frameworks */,
 				9FD637F61E6AD43F001EDBC8 /* Apollo.framework in Embed Frameworks */,
 			);
@@ -294,7 +250,6 @@
 		9FCDFD281E33D0CE007519DC /* GraphQLQueryWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphQLQueryWatcher.swift; sourceTree = "<group>"; };
 		9FCE2CEB1E6BDAD100E34457 /* NormalizedCachingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalizedCachingTests.swift; sourceTree = "<group>"; };
 		9FCE2CED1E6BE2D800E34457 /* NormalizedCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalizedCache.swift; sourceTree = "<group>"; };
-		9FCE2CFA1E6C213D00E34457 /* StarWarsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StarWarsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCE2CFC1E6C213D00E34457 /* StarWarsAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsAPI.h; sourceTree = "<group>"; };
 		9FCE2CFD1E6C213D00E34457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FCE2D0A1E6C258A00E34457 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
@@ -347,7 +302,6 @@
 			files = (
 				9FA6ABD61EC0AA4D000017BE /* Apollo.framework in Frameworks */,
 				9F8A95901EC0FFC100304A2D /* ApolloTestSupport.framework in Frameworks */,
-				9FA6ABD51EC0AA49000017BE /* StarWarsAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +319,6 @@
 			files = (
 				9FC631381E6AE2080062707E /* Apollo.framework in Frameworks */,
 				9F8A95931EC0FFD100304A2D /* ApolloTestSupport.framework in Frameworks */,
-				9F438D081E6C30B1007BDC1A /* StarWarsAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,15 +335,6 @@
 			files = (
 				9FC7504F1D2A532D00458D91 /* Apollo.framework in Frameworks */,
 				9F8A958D1EC0FFAB00304A2D /* ApolloTestSupport.framework in Frameworks */,
-				9FCE2D091E6C254700E34457 /* StarWarsAPI.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FCE2CF61E6C213D00E34457 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F438D071E6C2FD9007BDC1A /* Apollo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +342,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FCE2D011E6C213D00E34457 /* StarWarsAPI.framework in Frameworks */,
 				9F0CA4451EE7F9E90032DD39 /* ApolloTestSupport.framework in Frameworks */,
 				9FD637F51E6AD43F001EDBC8 /* Apollo.framework in Frameworks */,
 			);
@@ -515,7 +458,6 @@
 				9FC7504E1D2A532D00458D91 /* ApolloTests.xctest */,
 				9FD637E11E6ACF88001EDBC8 /* TestHost iOS.app */,
 				9FC631331E6AE2080062707E /* ApolloPerformanceTests.xctest */,
-				9FCE2CFA1E6C213D00E34457 /* StarWarsAPI.framework */,
 				9FA6ABBC1EC0A988000017BE /* ApolloCacheDependentTests.xctest */,
 				9F8A95781EC0FC1200304A2D /* ApolloTestSupport.framework */,
 				9FACA9C61F42E67200AE2DBD /* GitHubAPI.framework */,
@@ -687,14 +629,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FCE2CF71E6C213D00E34457 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FCE2CFE1E6C213D00E34457 /* StarWarsAPI.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -730,7 +664,6 @@
 			dependencies = (
 				9FA6ABD81EC0AA55000017BE /* PBXTargetDependency */,
 				9F8A958F1EC0FFB800304A2D /* PBXTargetDependency */,
-				9FA6ABD41EC0AA42000017BE /* PBXTargetDependency */,
 			);
 			name = ApolloCacheDependentTests;
 			productName = ApolloCacheDependentTests;
@@ -770,7 +703,6 @@
 			dependencies = (
 				9FC6313A1E6AE2080062707E /* PBXTargetDependency */,
 				9F8A95921EC0FFCB00304A2D /* PBXTargetDependency */,
-				9F438D0A1E6C30C3007BDC1A /* PBXTargetDependency */,
 				9FC6313F1E6AE2D90062707E /* PBXTargetDependency */,
 			);
 			name = ApolloPerformanceTests;
@@ -809,32 +741,11 @@
 			dependencies = (
 				9FC750511D2A532D00458D91 /* PBXTargetDependency */,
 				9F8A958C1EC0FF9F00304A2D /* PBXTargetDependency */,
-				9FCE2D081E6C254000E34457 /* PBXTargetDependency */,
 			);
 			name = ApolloTests;
 			productName = ApolloTests;
 			productReference = 9FC7504E1D2A532D00458D91 /* ApolloTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9FCE2CF91E6C213D00E34457 /* StarWarsAPI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FCE2D031E6C213D00E34457 /* Build configuration list for PBXNativeTarget "StarWarsAPI" */;
-			buildPhases = (
-				9FCE2D061E6C251100E34457 /* Generate Apollo Client API */,
-				9FCE2CF51E6C213D00E34457 /* Sources */,
-				9FCE2CF61E6C213D00E34457 /* Frameworks */,
-				9FCE2CF71E6C213D00E34457 /* Headers */,
-				9FCE2CF81E6C213D00E34457 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FA5FBB61EC05CE900304A9D /* PBXTargetDependency */,
-			);
-			name = StarWarsAPI;
-			productName = StarWarsAPI;
-			productReference = 9FCE2CFA1E6C213D00E34457 /* StarWarsAPI.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		9FD637E01E6ACF88001EDBC8 /* TestHost iOS */ = {
 			isa = PBXNativeTarget;
@@ -849,7 +760,6 @@
 			);
 			dependencies = (
 				9FD637F81E6AD43F001EDBC8 /* PBXTargetDependency */,
-				9FCE2D001E6C213D00E34457 /* PBXTargetDependency */,
 				9F0CA4481EE7F9E90032DD39 /* PBXTargetDependency */,
 			);
 			name = "TestHost iOS";
@@ -894,11 +804,6 @@
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 					};
-					9FCE2CF91E6C213D00E34457 = {
-						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
-					};
 					9FD637E01E6ACF88001EDBC8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Manual;
@@ -922,7 +827,6 @@
 				9FC7504D1D2A532D00458D91 /* ApolloTests */,
 				9FA6ABBB1EC0A988000017BE /* ApolloCacheDependentTests */,
 				9FC631321E6AE2080062707E /* ApolloPerformanceTests */,
-				9FCE2CF91E6C213D00E34457 /* StarWarsAPI */,
 				9FACA9B71F42E67200AE2DBD /* GitHubAPI */,
 				9FD637E01E6ACF88001EDBC8 /* TestHost iOS */,
 				9F8A95771EC0FC1200304A2D /* ApolloTestSupport */,
@@ -974,13 +878,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FCE2CF81E6C213D00E34457 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FD637DF1E6ACF88001EDBC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1007,20 +904,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "APOLLO_FRAMEWORK_PATH=$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\ncd ${SRCROOT}/Tests/GitHubAPI\n$(find $APOLLO_FRAMEWORK_PATH -name 'check-and-run-apollo-cli.sh') codegen:generate --queries=\"$(find . -name '*.graphql')\" --schema=schema.json --mergeInFieldsFromFragmentSpreads API.swift";
-		};
-		9FCE2D061E6C251100E34457 /* Generate Apollo Client API */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate Apollo Client API";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "APOLLO_FRAMEWORK_PATH=$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\ncd ${SRCROOT}/Tests/StarWarsAPI\n$(find $APOLLO_FRAMEWORK_PATH -name 'check-and-run-apollo-cli.sh') codegen:generate --queries=\"$(find . -name '*.graphql')\" --schema=schema.json --mergeInFieldsFromFragmentSpreads API.swift";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1123,14 +1006,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FCE2CF51E6C213D00E34457 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FCE2D0B1E6C258A00E34457 /* API.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FD637DD1E6ACF88001EDBC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1147,11 +1022,6 @@
 			isa = PBXTargetDependency;
 			target = 9F8A95771EC0FC1200304A2D /* ApolloTestSupport */;
 			targetProxy = 9F0CA4471EE7F9E90032DD39 /* PBXContainerItemProxy */;
-		};
-		9F438D0A1E6C30C3007BDC1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FCE2CF91E6C213D00E34457 /* StarWarsAPI */;
-			targetProxy = 9F438D091E6C30C3007BDC1A /* PBXContainerItemProxy */;
 		};
 		9F65B1201EC106E80090B25F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1172,16 +1042,6 @@
 			isa = PBXTargetDependency;
 			target = 9F8A95771EC0FC1200304A2D /* ApolloTestSupport */;
 			targetProxy = 9F8A95911EC0FFCB00304A2D /* PBXContainerItemProxy */;
-		};
-		9FA5FBB61EC05CE900304A9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FC750431D2A532C00458D91 /* Apollo */;
-			targetProxy = 9FA5FBB51EC05CE900304A9D /* PBXContainerItemProxy */;
-		};
-		9FA6ABD41EC0AA42000017BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FCE2CF91E6C213D00E34457 /* StarWarsAPI */;
-			targetProxy = 9FA6ABD31EC0AA42000017BE /* PBXContainerItemProxy */;
 		};
 		9FA6ABD81EC0AA55000017BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1207,16 +1067,6 @@
 			isa = PBXTargetDependency;
 			target = 9FC750431D2A532C00458D91 /* Apollo */;
 			targetProxy = 9FC750501D2A532D00458D91 /* PBXContainerItemProxy */;
-		};
-		9FCE2D001E6C213D00E34457 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FCE2CF91E6C213D00E34457 /* StarWarsAPI */;
-			targetProxy = 9FCE2CFF1E6C213D00E34457 /* PBXContainerItemProxy */;
-		};
-		9FCE2D081E6C254000E34457 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FCE2CF91E6C213D00E34457 /* StarWarsAPI */;
-			targetProxy = 9FCE2D071E6C254000E34457 /* PBXContainerItemProxy */;
 		};
 		9FD637F81E6AD43F001EDBC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1640,34 +1490,6 @@
 			};
 			name = Release;
 		};
-		9FCE2D041E6C213D00E34457 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F98C84D1EC085C400FFD919 /* Framework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Tests/StarWarsAPI/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.StarWarsAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-			};
-			name = Debug;
-		};
-		9FCE2D051E6C213D00E34457 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F98C84D1EC085C400FFD919 /* Framework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Tests/StarWarsAPI/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.StarWarsAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-			};
-			name = Release;
-		};
 		9FD637F11E6ACF88001EDBC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1804,20 +1626,6 @@
 			};
 			name = PerformanceTesting;
 		};
-		9FEFCFD61E6C65CE0061834C /* PerformanceTesting */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F98C84D1EC085C400FFD919 /* Framework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Tests/StarWarsAPI/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apollographql.StarWarsAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-			};
-			name = PerformanceTesting;
-		};
 		9FEFCFD71E6C65CE0061834C /* PerformanceTesting */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1906,16 +1714,6 @@
 				9FC7505C1D2A532D00458D91 /* Debug */,
 				9FC7505D1D2A532D00458D91 /* Release */,
 				9FEFCFD01E6C65CE0061834C /* PerformanceTesting */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FCE2D031E6C213D00E34457 /* Build configuration list for PBXNativeTarget "StarWarsAPI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FCE2D041E6C213D00E34457 /* Debug */,
-				9FCE2D051E6C213D00E34457 /* Release */,
-				9FEFCFD61E6C65CE0061834C /* PerformanceTesting */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
