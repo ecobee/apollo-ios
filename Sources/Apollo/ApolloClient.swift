@@ -87,7 +87,7 @@ public class ApolloClient {
       resultHandler(.failure(error))
     case .success(let response):
       // If there is no need to publish the result to the store, we can use a fast path.
-      if !shouldPublishResultToStore {
+      if !shouldPublishResultToStore || cacheValidationForObject?(response.body) != true {
         do {
           let result = try response.parseResultFast()
           resultHandler(.success(result))
@@ -127,6 +127,16 @@ extension ApolloClient: ApolloClientProtocol {
 
     set {
       self.store.cacheKeyForObject = newValue
+    }
+  }
+  
+  public var cacheValidationForObject: CacheValidationForObject? {
+    get {
+      return self.store.cacheValidationForObject
+    }
+
+    set {
+      self.store.cacheValidationForObject = newValue
     }
   }
 
