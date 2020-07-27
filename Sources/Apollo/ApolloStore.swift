@@ -2,6 +2,7 @@ import Dispatch
 
 /// A function that returns a cache key for a particular result object. If it returns `nil`, a default cache key based on the field path will be used.
 public typealias CacheKeyForObject = (_ object: JSONObject) -> JSONValue?
+public typealias CacheValidationForObject = (_ object: JSONObject) -> Bool
 public typealias DidChangeKeysFunc = (Set<CacheKey>, UnsafeMutableRawPointer?) -> Void
 
 func rootCacheKey<Operation: GraphQLOperation>(for operation: Operation) -> String {
@@ -24,6 +25,7 @@ protocol ApolloStoreSubscriber: class {
 /// The `ApolloStore` class acts as a local cache for normalized GraphQL results.
 public final class ApolloStore {
   public var cacheKeyForObject: CacheKeyForObject?
+  public var cacheValidationForObject: CacheValidationForObject?
 
   private let queue: DispatchQueue
 
