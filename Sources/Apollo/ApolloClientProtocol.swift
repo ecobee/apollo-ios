@@ -9,6 +9,9 @@ public protocol ApolloClientProtocol: class {
   /// A function that returns a cache key for a particular result object. If it returns `nil`, a default cache key based on the field path will be used.
   var cacheKeyForObject: CacheKeyForObject? { get set }
 
+  /// A function that validates if a particular result object should be cached. 
+  var cacheValidationForObject: CacheValidationForObject? { get set }
+
   /// Clears the underlying cache.
   /// Be aware: In more complex setups, the same underlying cache can be used across multiple instances, so if you call this on one instance, it'll clear that cache across all instances which share that cache.
   ///
